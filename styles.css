@@ -5,3 +5,23 @@ body {
   display: block;
   text-align: center;
 }
+h2 {
+  color: #3b82f6;
+}
+label,
+input {
+  display: block;
+  margin: auto;
+  max-width: 90%;
+  color: #3b82f6;
+}
+.container {
+  max-width: 40%;
+  display: block;
+  margin: auto;
+  border: 1px solid gray;
+  background-color: #1f2937;
+  border-radius: 0.5rem;
+  padding: 2rem 1rem;
+  margin-top: 12vw;
+}
