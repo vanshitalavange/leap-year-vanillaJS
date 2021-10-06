@@ -14,3 +14,17 @@ function checkLeapYear(year) {
 
   return false;
 }
+function displayResult() {
+  var year = inputYear.value;
+  if (year < 0 || year === "") {
+    output.textContent = "Please enter a valid input";
+  } else {
+    if (checkLeapYear(year)) {
+      output.textContent = year + "  is a leap year 🥳";
+    } else {
+      output.textContent = year + " is not a leap year 🙁";
+    }
+  }
+}
+
+btnCheck.addEventListener("click", displayResult);
